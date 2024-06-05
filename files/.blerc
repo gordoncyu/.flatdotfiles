@@ -1,0 +1,5 @@
+# completion bindings
+ble-bind -m 'auto_complete' -f 'C-y' 'auto_complete/insert-on-end'
+ble-bind -m 'vi_imap' -f 'C-n' 'menu-complete'
+ble-bind -m 'menu_complete' -f 'C-n' 'menu/forward-column'
+ble-bind -m 'menu_complete' -f 'C-p' 'menu/backward-column'
